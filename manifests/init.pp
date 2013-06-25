@@ -13,7 +13,7 @@ class go {
   }
 
   package { 'boxen/brews/go':
-    ensure  => '1.0.3-boxen1',
+    ensure  => '1.1.1-boxen1',
   }
 
 }
