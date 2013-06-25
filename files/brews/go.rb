@@ -2,13 +2,14 @@ require 'formula'
 
 class Go < Formula
   homepage 'http://golang.org'
-  url 'http://go.googlecode.com/files/go1.1.src.tar.gz'
-  sha1 'a464704ebbbdd552a39b5f9429b059c117d165b3'
+  url 'https://go.googlecode.com/files/go1.1.1.src.tar.gz'
+  sha1 'f365aed8183e487a48a66ace7bf36e5974dffbb3'
+
   head 'https://go.googlecode.com/hg/'
 
   skip_clean 'bin'
 
-  version '1.1.0-boxen1'
+  version '1.1.1-boxen1'
 
   option 'cross-compile-all', "Build the cross-compilers and runtime support for all supported platforms"
   option 'cross-compile-common', "Build the cross-compilers and runtime support for darwin, linux and windows"
